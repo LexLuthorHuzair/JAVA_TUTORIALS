@@ -24,6 +24,18 @@ public class day_2 {
         System.out.println(++x);
         System.out.println(x--);
         System.out.println(--x);
+        
+//      Decision making
+        if(x ==24){
+            System.out.println("the number is not equal");
+        }
+        else if (x ==34){
+            System.out.println("the number is equal");
+        }
+        else{
+            System.out.println("this doesnt satisfy condition");
+        }
+
 
     }
 }
